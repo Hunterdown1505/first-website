@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h2 style="text-align: center;"><small>Menu de navegação</small></h2>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="sobrenos.html">Sobre nós</a></li>
+                <li><a href="horarios.html">Horário de atendimento</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header" style="text-align: center;">
+                <h1><strong><U>Agende seu atendimento conosco !</U></strong></h1>
+                <img src="contato.jpg" alt="A imagem não pode ser carregada" width="600">
+            </div>
+    
+            <div class="content">
+                <form name="contatocliente" method="post" target="_self" autocomplete>
+                    <label>Nome: </label><input type="text" name="nome" required placeholder="Digite seu nome">
+                    <label>Telefone: </label><input type="number"><br>
+                    <label>Idade: </label><input type="number" min="18" max="100" maxlength="3" required placeholder="Digite sua Idade"><br>
+                    <label>E-mail: </label><input type="email" placeholder="Digite aqui seu E-mail"><br>
+                    <label>Homem ou mulher: </label>Homem<input type="radio" name="genero">
+                    Mulher<input type="radio" name="genero"><br>
+                    <label>Assunto: 
+                        <select name="Assunto">
+                            <option value="default">Selecione o Assunto</option>
+                            <option value="Psiquiatra">Psiquiatra</option>
+                            <option value="Clinico-geral">Clinico geral</option>
+                            <option value="Psicólogo">Psicólogo</option>
+                            <option value="Pediatra">Pediatra</option>
+                        </select>
+                    <label>Descrição sobre o assunto:</label>
+                    <textarea name="message"></textarea><br>
+                    <h2>Abaixo, está nossa localização no Google Maps: </h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.511444051471!2d-46.63877988928048!3d-23.621848263728236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a543b449107%3A0x6ed40af7d55b47bc!2sR.%20Paracatu%20-%20Parque%20Imperial%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1714013049220!5m2!1spt-BR!2sbr" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></style></iframe>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <h2 style="text-align: center;">Endereço e número para contato.</h2>
+                <p><strong><i>Endereço: Rua Paracatu, Parque Imperial - São Paulo</i></strong></p>
+                <p><strong><i>Número para contato: (11) 2113-3974</i></strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
